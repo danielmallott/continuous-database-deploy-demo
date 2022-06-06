@@ -9,3 +9,6 @@
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+-- :r .\PreDeploymentScripts\RenameParts_SSDT_DemoTable.sql
+-- :r .\PreDeploymentScripts\Rename_PartsSSDTDemo_Table_Material_Column.sql

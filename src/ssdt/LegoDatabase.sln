@@ -5,6 +5,13 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LegoDatabase.SqlServer", "LegoDatabase.SqlServer\LegoDatabase.SqlServer.sqlproj", "{D268A57D-88AC-42C2-948F-8DB7E136F460}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8439553-02A7-42AD-906F-695346FD7C39}"
+	ProjectSection(SolutionItems) = preProject
+		DemoScripts\Parts_SSDT_Demo.sql = DemoScripts\Parts_SSDT_Demo.sql
+		PartsSSDTDemo.sql = PartsSSDTDemo.sql
+		PartsSSDTDemo_AddedColumn.sql = PartsSSDTDemo_AddedColumn.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

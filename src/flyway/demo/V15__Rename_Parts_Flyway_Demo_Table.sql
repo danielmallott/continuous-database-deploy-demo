@@ -1,0 +1,1 @@
+EXEC sp_rename N'dbo.Parts_Flyway_Demo', 'PartsFlywayDemo';

@@ -9,3 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+
+-- :r .\PostDeploymentScripts\LoadPartsSSDTDemoTable.sql
+-- :r .\PostDeploymentScripts\RenameParts_SSDT_DemoTable.sql
+-- :r .\PostDeploymentScripts\Rename_PartsSSDTDemo_Material_Column.sql

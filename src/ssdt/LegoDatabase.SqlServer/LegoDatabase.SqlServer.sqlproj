@@ -92,4 +92,21 @@
   <ItemGroup>
     <PostDeploy Include="PostDeployment.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="PostDeploymentScripts\LoadPartsSSDTDemoTable.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PreDeploymentScripts\RenameParts_SSDT_DemoTable.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PostDeploymentScripts\RenameParts_SSDT_DemoTable.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PreDeploymentScripts\Rename_PartsSSDTDemo_Table_Material_Column.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PostDeploymentScripts\Rename_PartsSSDTDemo_Table_Material_Column.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
