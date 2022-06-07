@@ -11,5 +11,5 @@ Post-Deployment Script Template
 */
 
 :r .\PostDeploymentScripts\LoadPartsSSDTDemoTable.sql
--- :r .\PostDeploymentScripts\RenameParts_SSDT_DemoTable.sql
+:r .\PostDeploymentScripts\RenameParts_SSDT_DemoTable.sql
 -- :r .\PostDeploymentScripts\Rename_PartsSSDTDemo_Material_Column.sql
