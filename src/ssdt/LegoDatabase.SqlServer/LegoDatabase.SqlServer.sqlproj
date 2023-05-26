@@ -85,6 +85,9 @@
     <Build Include="DataLoad\Stored Procedures\LoadInventoryParts.sql" />
     <Build Include="DataLoad\User Defined Types\InventoryParts.sql" />
     <Build Include="Security\DataLoad.sql" />
+    <!-- <Build Include="dbo\Tables\Parts_SSDT_Demo.sql" /> -->
+    <!-- <Build Include="dbo\Tables\PartsSSDTDemo.sql" /> -->
+    <!-- <Build Include="dbo\Tables\PartsSSDTDemo_AddedColumn.sql" /> -->
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="PreDeployment.sql" />
